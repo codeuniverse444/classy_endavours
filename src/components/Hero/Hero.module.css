@@ -1,0 +1,108 @@
+.hero {
+    background-color: #f5f9fc;
+    padding: 4rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #0a2540;
+    line-height: 1.2;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #5b6b7c;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .imageContainer {
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .trustedBy {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .trustedByTitle {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8795a1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .logoItem {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .logoItem:hover {
+    opacity: 1;
+  }
+
+  .logosection img {
+    opacity: 1 !important; 
+    display: block; 
+    width: auto;  
+    max-height: 50px;  
+  }
+  
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+    
+    .subtitle {
+      font-size: 1.1rem;
+    }
+    
+    .buttonGroup {
+      flex-direction: column;
+    }
+  }

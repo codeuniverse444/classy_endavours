@@ -1,12 +1,48 @@
-# React + Vite
+DocuTech
+🚀 A Modern Web Application for Classy Endavours
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔹 Overview
+This project is a fully responsive React.js web application built with clean code, best practices, and optimized performance. It showcases my expertise in frontend development and problem-solving.
 
-Currently, two official plugins are available:
+✨ Features
+✔️ Modern and clean UI/UX design
+✔️ Fully responsive across all devices
+✔️ Optimized for performance and accessibility
+✔️ Smooth navigation with React Router
+✔️ Scalable and maintainable code structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Tech Stack
+Frontend: React.js, JavaScript, HTML, CSS
+Routing: React Router
+State Management: useState, useEffect
+Build Tool: Vite / Create React App (mention which one you used)
+🛠️ Installation & Setup
+1️⃣ Clone the repository:
 
-## Expanding the ESLint configuration
+sh
+Copy
+Edit
+git clone https://github.com/yourusername/classy_endavours.git
+cd classy_endavours
+2️⃣ Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+sh
+Copy
+Edit
+npm install
+3️⃣ Start the development server:
+
+sh
+Copy
+Edit
+npm start
+4️⃣ To create a production build:
+
+sh
+Copy
+Edit
+npm run build
+📢 Why Consider This Project?
+This project demonstrates my ability to build modern web applications with clean, efficient, and scalable code. It highlights my problem-solving skills, attention to detail, and passion for frontend development.
+
+🚀 I am excited about the opportunity to contribute to Classy Endavours and would love to discuss how my skills align with your team!
